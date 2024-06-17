@@ -1,0 +1,264 @@
+body {
+    font-family: Open Sans, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    font-size: 16px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px; 
+    background-color: #3a75b0;
+    flex-wrap: wrap; 
+}
+
+header > div{
+    display: flex;
+}
+
+.logo img {
+    height: 100px; 
+    margin-left: 0; 
+    margin-top: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center; 
+    gap: 10px;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6rem; 
+    font-weight: 600;
+    padding: 0 10px; 
+}
+
+ul li a:hover {
+    color: orange; 
+}
+
+.Buscar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-right: 0; 
+}
+
+.Buscar input[type="search"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: width 0.3s ease; 
+    width: 200px; 
+}
+
+.Buscar input[type="search"]:focus {
+    width: 300px; 
+    outline: none; 
+}
+
+@media(max-width:900px)  {  
+    header{
+        justify-content: space-around;
+    }
+
+    .descarga{
+        flex-wrap: wrap;
+    }
+
+    .Buscar{
+        margin-bottom: 10px;
+    }
+
+    .div_footer{
+        flex-wrap: wrap;
+    }
+}
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 10%;
+    flex-wrap: wrap; 
+}
+
+.txt_ordenador {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span h2{
+    margin: 0;
+}
+
+span h2 a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #006b8f;
+    text-decoration: none;
+}
+
+span h2 a:hover{
+    text-decoration: underline;
+}
+
+.descarga {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descarga div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.descarga h1 {
+    color: #7A736E;
+    font-size: 2.5rem; 
+    text-align: center;
+    font-weight: 300;
+    padding: 0 2rem;
+}
+
+.descarga h2:hover {
+    color: #0071c5;
+    text-decoration: underline; 
+}
+
+.div_imagen img {
+    width: 100%; 
+    margin-right: 0;
+    margin-top: 10%;
+}
+
+.boton-descarga {
+    width: 13rem;
+    background-color: #198754;
+    color: #ffffff;
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px; 
+    max-width: 200px; 
+    font-size: 18px; 
+    text-align: center; 
+    margin: 3rem;
+}
+
+
+.boton-descarga:hover {
+    background-color: #1a6c2e; 
+}
+
+.div_imagen {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.descarga h3 {
+    color: #00369a;
+    font-style: normal;
+    font-weight: normal;
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.contenedor-h3 {
+    display: flex;
+}
+
+.contenedor-h3 h3 {
+    margin: 0 10px; 
+}
+
+.div_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7A736E;
+    color: white;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.div_footer img {
+    height: 100px;
+    margin-left: 0; 
+}
+
+.div_footer h2 {
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    margin-right: 2%;
+}
+
+.div_footer .botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.div_footer .botones a {
+    background-color: transparent;
+    border: 2px solid white; 
+    color: white;
+    padding: 10px 15px; 
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 16px; 
+    text-align: center;
+    cursor: pointer; 
+}
+
+.div_footer .botones a:hover {
+    color: #000000;
+    background-color: #ffffff; 
+}
+
+footer {
+    color: #2d5986;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.footer-botones {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 5%;
+    gap: 10px; 
+}
+
+footer a {
+    color: #2d5986;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s, text-decoration 0.3s;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: #0071c5;
+    text-decoration: underline;
+}
